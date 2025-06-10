@@ -1,0 +1,8 @@
+.icones{
+    display: flex;
+    gap: 20px;
+}
+
+.icones li{
+    list-style: none;
+}

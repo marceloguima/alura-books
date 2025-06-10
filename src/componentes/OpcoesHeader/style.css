@@ -1,0 +1,17 @@
+
+.container-opcoes{
+  display: flex;
+  gap: 20px;
+}
+
+.opcoes{
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.opcao{
+    list-style: none;
+    min-width: 120px;
+
+}

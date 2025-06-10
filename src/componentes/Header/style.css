@@ -1,0 +1,10 @@
+.App-header{
+    height: 80px;
+    width: 100%;
+    background: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 2px 3px 20px #3a3a3a;
+    border-radius: 15px;
+}
