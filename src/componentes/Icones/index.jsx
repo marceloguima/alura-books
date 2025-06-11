@@ -8,7 +8,7 @@ function Icones() {
     return (
         <ul className="icones">
             {icones.map((icone) => (
-                <li><img src={icone}></img></li>
+                <li className="icone"><img src={icone}></img></li>
             ))}
         </ul>
     );

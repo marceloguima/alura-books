@@ -1,7 +1,7 @@
 
 .container-opcoes{
   display: flex;
-  gap: 20px;
+  gap: 50px;
 }
 
 .opcoes{
@@ -13,5 +13,10 @@
 .opcao{
     list-style: none;
     min-width: 120px;
+    cursor: pointer;
 
+}
+
+.opcao:hover{
+  font-weight: 500;
 }

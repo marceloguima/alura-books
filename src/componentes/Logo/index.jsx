@@ -6,8 +6,8 @@ function Logo() {
     return (
         <div className="logo">
             <img src={logo} alt="Logo do alura Books"></img>
-            <p>
-                <strong>Alura</strong> Books
+            <p translate='no'>
+                <strong >Alura</strong> Books
             </p>
         </div>
     );

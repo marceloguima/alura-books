@@ -3,8 +3,9 @@
     width: 100%;
     background: #fff;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    padding: 0 40px;
     box-shadow: 2px 3px 20px #3a3a3a;
     border-radius: 15px;
 }
