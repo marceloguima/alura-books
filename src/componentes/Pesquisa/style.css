@@ -1,4 +1,4 @@
-.pesquisar {
+.titleSection {
     width: 100%;
     display: flex;
     gap: 20px;
@@ -10,54 +10,11 @@
    
 }
 
-.pesquisar h2{
+.titleSection h2{
     font-size: 2.1rem;
 }
 
-.pesquisar h3{
+.titleSection h3{
     font-size: 1.1rem;
     font-weight: 400;
-}
-
-.pesquisar input {
-    width: 80%;
-    padding: 8px;
-    background: transparent;
-    border-radius: 20px 0 0 20px;
-    border: solid 2px #afafaf;
-    color: #fff;
-    border-right: none;
-    font-size: 1rem;
-}
-
-.pesquisar input:focus {
-    outline: none;
-}
-
-input::placeholder{
-    color: #a0a0a0;
-}
-
-.pesquisar button {
-    border: none;
-    padding: 6px;
-    font-size: 1rem;
-    transition: ease-in 0.3s;
-    border: solid 2px #afafaf;
-    color: #fff;
-    background: transparent;
-    border-radius: 0 20px 20px 0;
-    cursor: pointer;
-}
-
-button:hover {
-    background: #ffffff;
-    color: #02134d;
-}
-
-
-.campo-pesquisa{
-    display: flex;
-    justify-content: center;
-    width: 500px;
 }

@@ -7,6 +7,7 @@ function Header() {
         <header className="App-header">
             <Logo />
             <OpcoesHeader/>
+        
         </header>
     );
 }
