@@ -1,12 +1,31 @@
+import { useState } from "react";
 import "./style.css";
-import BarraPesquisa from "../../componentes/BarraPesquisa"
+import Input from "../Input";
+import { livros } from "./dadosPesquisa";
 
 function Pesquisa() {
+    const [livrosPesquisados, setLivrosPesquisados] = useState([]);
+
     return (
         <section className="titleSection">
             <h2>Já sabe por onde começar?</h2>
             <h3>Encontre seu livro em nossa estante.</h3>
-            <BarraPesquisa />
+            <Input
+                textoPlaceholder="Escreva sua próxima leitura"
+                onBlur={(evento) => {
+                    const textoDigitado = evento.target.value;
+                    const resultadoPesquisa = livros.filter((livro) =>
+                        livro.nome.includes(textoDigitado)
+                    );
+                    setLivrosPesquisados(resultadoPesquisa);
+                }}
+            />
+            {livrosPesquisados.map(livros =>(
+                <div className="livros-buscados">
+                    <img src={livros.src} alt={"livro " + livros.nome} />
+                    <p>{livros.nome}</p>
+                </div>
+            ))}
         </section>
     );
 }

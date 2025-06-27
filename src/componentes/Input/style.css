@@ -1,0 +1,36 @@
+
+.campo-pesquisa {
+    width: 30vw;
+    padding: 8px;
+    background: transparent;
+    border-radius: 20px ;
+    border: solid 2px #afafaf;
+    color: #fff;
+    text-align: center;
+    /* border-right: none; */
+    font-size: 1rem;
+}
+
+.campo-pesquisa:focus {
+    outline: none;
+    background: #1d1d1d48;
+}
+
+@media(max-width: 900px){
+    .campo-pesquisa{
+        width: 40vw;
+    }
+}
+
+@media(max-width:650px){
+    .campo-pesquisa{
+        width: 50vw;
+    }
+}
+
+
+@media(max-width:450px){
+    .campo-pesquisa{
+        width: 80vw;
+    }
+}

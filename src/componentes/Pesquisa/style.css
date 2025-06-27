@@ -7,14 +7,26 @@
     justify-content: center;
     color: #fff;
     margin-top: 50px;
-   
 }
 
-.titleSection h2{
+.titleSection h2 {
     font-size: 2.1rem;
 }
 
-.titleSection h3{
+.titleSection h3 {
     font-size: 1.1rem;
     font-weight: 400;
 }
+
+.livros-buscados {
+    border: solid 1px #afafaf;
+    background-color: #27272741;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    box-shadow: 3px 5px 10px #424242;
+    
+}
+
