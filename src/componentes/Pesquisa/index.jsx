@@ -7,7 +7,7 @@ function Pesquisa() {
     const [livrosPesquisados, setLivrosPesquisados] = useState([]);
 
     return (
-        <section className="titleSection">
+        <section className="pesquisar">
             <h2>Já sabe por onde começar?</h2>
             <h3>Encontre seu livro em nossa estante.</h3>
             <Input
@@ -21,11 +21,13 @@ function Pesquisa() {
                 }}
             />
             {livrosPesquisados.map(livros =>(
-                <div className="livros-buscados">
-                    <img src={livros.src} alt={"livro " + livros.nome} />
-                    <p>{livros.nome}</p>
+                <div className="secao-pesquisados">
+                    <div className="card">
+                        <img src={livros.src} alt={"livro " + livros.nome} />
+                        <p>{livros.nome}</p>
+                    </div>
                 </div>
-            ))}
+                ))}
         </section>
     );
 }

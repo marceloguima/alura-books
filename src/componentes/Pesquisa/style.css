@@ -1,4 +1,4 @@
-.titleSection {
+.pesquisar {
     width: 100%;
     display: flex;
     gap: 20px;
@@ -6,27 +6,36 @@
     align-items: center;
     justify-content: center;
     color: #fff;
+ 
     margin-top: 50px;
 }
 
-.titleSection h2 {
+.pesquisar h2 {
     font-size: 2.1rem;
 }
 
-.titleSection h3 {
+.pesquisar h3 {
     font-size: 1.1rem;
     font-weight: 400;
 }
 
-.livros-buscados {
+.card {
     border: solid 1px #afafaf;
-    background-color: #27272741;
+    background-color: #ebececbb;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 10px;
     box-shadow: 3px 5px 10px #424242;
+    width: 200px;
+    height: 330px;
     
 }
 
+.secao-pesquisados{
+    width: 100%;
+    height: 100vh;
+   display: flex;
+   justify-content: center;
+    
+}

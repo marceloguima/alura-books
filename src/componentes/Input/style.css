@@ -16,6 +16,10 @@
     background: #1d1d1d48;
 }
 
+.campo-pesquisa::placeholder{
+    color: #afafaf;
+}
+
 @media(max-width: 900px){
     .campo-pesquisa{
         width: 40vw;
