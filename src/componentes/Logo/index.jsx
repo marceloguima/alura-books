@@ -5,9 +5,9 @@ import './style.css'
 function Logo() {
     return (
         <div className="logo">
-            <img src={logo} alt="Logo do alura Books"></img>
+            <img src={logo} alt="Logo do tecnobooks"></img>
             <p translate='no'>
-                <strong >Alura</strong> Books
+                <strong >Tecno</strong> Books
             </p>
         </div>
     );
